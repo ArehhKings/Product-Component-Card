@@ -1,0 +1,106 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #FFF9D7;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  width: 1440px auto;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Fraunces', serif;
+}
+h1{
+  font-size: 20pt;
+  font-family: 'Fraunces', serif;
+}
+h3{
+  color: gray;
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+}
+a{
+  font-size:9pt;
+}
+.first-container{
+ width: 80%;
+ height: 90%;
+ background-color:#FFE7BF;
+ box-shadow: 0px 5px 10px 5px #FAF3E3;
+}
+.main-container{
+width: 50%;
+height: 80%;
+background-color: #F5F0BB;
+margin: 5% auto 5% auto;
+border-radius: 20px;
+text-align: center;
+align-content: center;
+float: center;
+display: flex;
+}
+.child-1{
+width: 50%;
+ }
+.child-2{
+width: 42%;
+text-align: left;
+padding-left: 4%;
+padding-right: 4%;
+padding-top: 2%;
+}
+.perfume-img{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px 0 0 20px;
+  margin: 0;
+}
+.price{
+position: relative;
+bottom: 20px;
+}
+.price-1{
+display: inline-block;
+text-decoration-color: #4e9468;
+}
+.price-2{
+  display: inline-block;
+  margin-left: 25px;
+  }
+.stroke{
+  text-decoration: line-through;
+  position: relative;
+  bottom: 4px;
+}
+
+.btn {
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family:'Montserrat', sans-serif;
+  color: hsl(30, 38%, 92%);
+  font-size: 14px;
+  background: #1d733f;
+  padding: 15px 60px 15px 60px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #4e9468;
+  background-image: -webkit-linear-gradient(top, #4e9468, #34b367);
+  background-image: -moz-linear-gradient(top, #4e9468, #34b367);
+  background-image: -ms-linear-gradient(top, #4e9468, #34b367);
+  background-image: -o-linear-gradient(top, #4e9468, #34b367);
+  background-image: linear-gradient(to bottom, #4e9468, #34b367);
+  text-decoration: none;
+}
+.attribution {
+  font-size: 11px;
+  position: absolute;
+  bottom: 0;
+  align-content: center;
+  text-align: center;
+}
